@@ -11,7 +11,12 @@ import SwiftUI
 struct PlantApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                   splash() // Start with Splash, which transitions to Mainpage
+                .preferredColorScheme(.dark)
+                }
+            
+               
         }
     }
-}
+
+
